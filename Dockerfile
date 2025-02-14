@@ -11,8 +11,9 @@ COPY . .
 ENV NODE_ENV=production
 
 ARG VITE_BACKEND_ORIGIN
+ARG VITE_FRONTEND_ORIGIN
 
-RUN echo "${VITE_BACKEND_ORIGIN}" > /.env
+RUN echo -e "${VITE_BACKEND_ORIGIN}\n${VITE_FRONTEND_ORIGIN}" > /.env
 RUN npm run build
 
 FROM nginx:1.25.3-alpine-slim

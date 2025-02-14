@@ -1,4 +1,4 @@
-# <img alt="logo" src="public/favicon.png" style="width: 50px" />ridge
+# <img alt="logo" src="public/favicon.png" style="width: 50px; margin-right:5px" />ridge
 
 ![room-screenshot](images/room-screenshot.png)
 
