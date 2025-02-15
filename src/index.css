@@ -86,6 +86,30 @@ button.new-room-btn:hover {
   transition: border-color 0.25s;
 }
 
+.ready-btn-theme {
+  border-color: #efca34;
+  background-color: #efca34;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  color: white;
+  transition: border-color 0.25s;
+}
+
+.error-btn-theme {
+  border-color: #ff0000;
+  background-color: #ff0000;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  color: white;
+  transition: border-color 0.25s;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
